@@ -4,6 +4,7 @@
      <%@products.each do |product|%>
        <div class='col-md-5 product-box'>
          <h5 class='product-name'><%=product.name%></h5>
+         <%= image_tag(product.image, class: "product-image center-block") %>
          <p class='product-detail'><i>Colour:</i> <b><%=product.colour%></b></p>
          <p class='product-detail'><i>Category:</i> <b><%=product.category%></b></p>
          <p class='product-detail'><i>Price:</i> <b>£<%=product.price%></b>

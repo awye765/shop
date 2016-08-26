@@ -11,7 +11,7 @@ A responsive website for a fictional clothing retailer.  The website displays al
 
 The website delivers the following features for a fictional user of the store:
 
-- [ ] As a User I can view the products, their category, price and availability information.
+- [X] As a User I can view the products, their category, price and availability information.
 
 - [ ] As a User I can add a product to my shopping cart.
 
@@ -62,6 +62,7 @@ Please note this will take approximately 30-60 seconds to run.
 
 #### Frontend
 - HTML5 & CSS3
+- Bootstrap CSS & JS
 - JavaScript
 - Paperclip
 

@@ -50,6 +50,8 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'poltergeist'
 
+  gem 'paperclip'
+
   # Access an IRB console on exception pages or by using <%= console %> in views
   # gem 'web-console', '~> 2.0'
 
