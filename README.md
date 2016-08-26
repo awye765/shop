@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/awye765/store.svg?branch=master)](https://travis-ci.org/awye765/store) [![Coverage Status](https://coveralls.io/repos/github/awye765/store/badge.svg?branch=master)](https://coveralls.io/github/awye765/store?branch=master)
+[![Build Status](https://travis-ci.org/awye765/shop.svg?branch=master)](https://travis-ci.org/awye765/shop) [![Coverage Status](https://coveralls.io/repos/github/awye765/shop/badge.svg?branch=master)](https://coveralls.io/github/awye765/shop?branch=master)
 # PRIMANI
 
 [Features](#features) | [Installation](#installation) | [Usage](#usage) | [Technologies](#technologies) | [Tests](#tests) | [Approach](#approach)
