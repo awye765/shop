@@ -8,9 +8,9 @@ feature "Products Index Page" do
                                             colour: "Blue",
                                             category: "Women's Footwear",
                                             price: "42.0",
-                                            stock: 4
+                                            stock: 4,
+                                            image: Rack::Test::UploadedFile.new(Rails.root + 'spec/files/images/almond_toe_court_shoes.png', 'image/png')
                                   )
-
   end
 
   scenario 'shows one product on homepage' do

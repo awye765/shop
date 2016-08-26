@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/alistairwye/Projects/shop/spec/controllers/products_controller_spec.rb": [
+      "/Users/alistairwye/Projects/shop/spec/controllers/orders_controller_spec.rb": [
         1,
         null,
         1,
@@ -10,18 +10,6 @@
         1,
         1,
         1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
         null,
         null,
         null,
@@ -253,7 +241,16 @@
         null,
         null
       ],
+      "/Users/alistairwye/Projects/shop/spec/factories/orders.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/alistairwye/Projects/shop/spec/factories/products.rb": [
+        1,
         1,
         1,
         1,
@@ -269,6 +266,9 @@
         1,
         null,
         1,
+        null,
+        1,
+        null,
         1,
         null,
         null,
@@ -330,6 +330,10 @@
         1,
         null
       ],
+      "/Users/alistairwye/Projects/shop/app/helpers/orders_helper.rb": [
+        1,
+        null
+      ],
       "/Users/alistairwye/Projects/shop/app/helpers/products_helper.rb": [
         1,
         null
@@ -339,23 +343,23 @@
         1,
         null,
         1,
-        8,
-        8,
+        11,
+        10,
         null,
-        0,
+        1,
         null,
-        8,
+        11,
         null,
         null,
         1,
-        8,
+        11,
         null,
         null
       ],
-      "/Users/alistairwye/Projects/shop/app/controllers/products_controller.rb": [
+      "/Users/alistairwye/Projects/shop/app/controllers/orders_controller.rb": [
         1,
         1,
-        6,
+        null,
         null,
         null
       ],
@@ -364,6 +368,60 @@
         null,
         null,
         1,
+        null
+      ],
+      "/Users/alistairwye/Projects/shop/spec/controllers/products_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/alistairwye/Projects/shop/app/controllers/products_controller.rb": [
+        1,
+        1,
+        8,
+        null,
+        null
+      ],
+      "/Users/alistairwye/Projects/shop/spec/features/orders_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        0,
+        null,
+        null,
         null
       ],
       "/Users/alistairwye/Projects/shop/spec/features/products_spec.rb": [
@@ -409,6 +467,23 @@
         null,
         null
       ],
+      "/Users/alistairwye/Projects/shop/spec/helpers/orders_helper_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/alistairwye/Projects/shop/spec/helpers/products_helper_spec.rb": [
         null,
         null,
@@ -420,6 +495,13 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/alistairwye/Projects/shop/spec/models/order_spec.rb": [
         null,
         null,
         null,
@@ -463,6 +545,13 @@
         null,
         null
       ],
+      "/Users/alistairwye/Projects/shop/spec/views/orders/show.html.erb_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/alistairwye/Projects/shop/spec/views/products/index.html.erb_spec.rb": [
         null,
         null,
@@ -479,6 +568,6 @@
         null
       ]
     },
-    "timestamp": 1472220035
+    "timestamp": 1472225304
   }
 }

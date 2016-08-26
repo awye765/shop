@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
-  get 'products/index'
+  get 'orders/show'
+
+  root 'products#index'
 
   resources :products
-  root 'products#index'
+
+  resource  :order, only: [:show, :update]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
