@@ -4,7 +4,7 @@ RSpec.describe OrderItemsController, type: :controller do
 
   xdescribe "GET #create" do
     it "returns http success" do
-      get :create
+      get :create, order_item: FactoryGirl.attributes_for(:product)
       expect(response).to have_http_status(:success)
     end
   end

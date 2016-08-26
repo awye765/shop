@@ -1,6 +1,6 @@
 feature "Orders Page" do
 
-  before do
+  before(:each) do
     @product1 = FactoryGirl.create(:product)
   end
 
@@ -12,7 +12,7 @@ feature "Orders Page" do
 
   scenario "displays the order items in an order", js: true do
     visit '/'
-    page.find('btn-primary').click
+    click_on('Add to Cart')
     click_link '1 Items in Cart (£99.00)'
     expect(page).to have_content("Almond Toe Court Shoes")
   end
