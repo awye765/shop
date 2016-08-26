@@ -2,13 +2,36 @@
 <html>
 <head>
   <title>Shop</title>
+  <link href="/assets/stylebootstrap.css", media: 'all', rel="stylesheet" />
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+  <body>
+  <div class='container'>
+    <nav class="navbar navbar-default">
+     <div class="container-fluid">
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/">Primani</a>
+       </div>
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav navbar-right">
+           <li class="order-text">Checkout</li>
+         </ul>
+       </div>
+     </div>
+    </nav>
 
-<%= yield %>
+    <%= yield %>
 
-</body>
+  <script src="assets/bootstrap.js"> </script>
+
+  </body>
+
 </html>

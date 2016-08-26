@@ -1,7 +1,14 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+# Product Table Seed
+Product.create(name: "Almond Toe Court Shoes", colour: "Patent Black", category: "Women’s Footwear", price: 99.00, stock: 5)
+Product.create(name: "Suede Shoes", colour: "Blue", category: "Women’s Footwear", price: 42.00, stock: 4)
+Product.create(name: "Leather Driver Saddle Loafers", colour: "Tan", category: "Men’s Footwear", price: 34.00, stock: 12)
+Product.create(name: "Flip Flops", colour: "Red", category: "Men’s Footwear", price: 19.00, stock: 6)
+Product.create(name: "Flip Flops", colour: "Blue", category: "Men’s Footwear", price: 19.00, stock: 0)
+Product.create(name: "Gold Button Cardigan", colour: "Black", category: "Women's Casualwear", price: 167.00, stock: 6)
+Product.create(name: "Cotton Shorts", colour: "Medium Red", category: "Women's Casualwear", price: 167.00, stock: 6)
+Product.create(name: "Fine Stripe Short Sleeve Shirt", colour: "Grey", category: "Men's Casualwear", price: 49.99, stock: 9)
+Product.create(name: "Fine Stripe Short Sleeve Shirt", colour: "Green", category: "Men's Casualwear", price: 49.99, stock: 3)
+Product.create(name: "Sharkskin Waistcoat", colour: "Charcoal", category: "Men's Formalwear", price: 75.00, stock: 2)
+Product.create(name: "Lightweight Patch Pocket Blazer", colour: "Deer", category: "Men's Formalwear", price: 175.50, stock: 1)
+Product.create(name: "Bird Print Dress", colour: "Black", category: "Women's Formalwear", price: 270.00, stock: 10)
+Product.create(name: "Mid Twist Cut-Out Dress", colour: "Pink", category: "Women's Formalwear", price: 540.00, stock: 5)

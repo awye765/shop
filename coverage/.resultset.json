@@ -1,45 +1,16 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/alistairwye/Projects/shop/spec/features/products_spec.rb": [
+      "/Users/alistairwye/Projects/shop/spec/controllers/products_controller_spec.rb": [
         1,
         null,
         1,
         null,
         1,
-        2,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
+        1,
         1,
         null,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         null,
         null,
         null
@@ -270,7 +241,22 @@
         null,
         null
       ],
+      "/Users/alistairwye/Projects/shop/spec/factories/products.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/alistairwye/Projects/shop/config/routes.rb": [
+        1,
+        1,
+        null,
+        1,
         1,
         null,
         null,
@@ -332,6 +318,10 @@
         1,
         null
       ],
+      "/Users/alistairwye/Projects/shop/app/helpers/products_helper.rb": [
+        1,
+        null
+      ],
       "/Users/alistairwye/Projects/shop/spec/support/database_cleaner.rb": [
         1,
         1,
@@ -350,16 +340,87 @@
         null,
         null
       ],
-      "/Users/alistairwye/Projects/shop/spec/models/product_spec.rb": [
+      "/Users/alistairwye/Projects/shop/app/controllers/products_controller.rb": [
+        1,
+        1,
+        3,
+        null,
+        null
+      ],
+      "/Users/alistairwye/Projects/shop/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/alistairwye/Projects/shop/spec/features/products_spec.rb": [
         1,
         null,
         1,
+        null,
         1,
         2,
         null,
+        null,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/alistairwye/Projects/shop/spec/helpers/products_helper_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/alistairwye/Projects/shop/spec/models/product_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/alistairwye/Projects/shop/spec/views/products/index.html.erb_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/alistairwye/Projects/shop/app/models/product.rb": [
+        1,
         null
       ]
     },
-    "timestamp": 1472205417
+    "timestamp": 1472210879
   }
 }
