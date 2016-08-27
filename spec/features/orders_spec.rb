@@ -17,4 +17,12 @@ feature "Orders Page" do
     expect(page).to have_content("Almond Toe Court Shoes")
   end
 
+  scenario "allows user to delete item from cart", js: true do
+    visit '/'
+    click_on('Add to Cart')
+    click_link '1 Items in Cart (£99.00)'
+    click_link 'Delete'
+    expect(page).to have_content("There are no items in your shopping cart.  Please go back and add some items to your cart")
+  end
+
 end
