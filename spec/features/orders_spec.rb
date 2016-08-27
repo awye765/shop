@@ -1,4 +1,4 @@
-feature "Orders Page" do
+feature "FEATURE: Shopping Cart" do
 
   before(:each) do
     @product1 = FactoryGirl.create(:product)
@@ -9,7 +9,7 @@ feature "Orders Page" do
     click_link '0 Items in Cart (£)'
     expect(current_path).to eq('/order')
   end
-
+  context "where 1 "
   scenario "displays the order items in an order", js: true do
     visit '/'
     click_on('Add to Cart')

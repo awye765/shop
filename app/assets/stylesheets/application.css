@@ -34,3 +34,12 @@
 .product-detail{
   text-align: center;
 }
+
+.new_order_item {
+  padding-bottom: 10px;
+}
+
+.delete-button {
+  padding-top: 10px;
+  text-align: center;
+}

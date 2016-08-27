@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-feature "Products Index Page" do
+feature "FEATURE: Products Index" do
 
   before(:each) do
     @product1 = FactoryGirl.create(:product)
