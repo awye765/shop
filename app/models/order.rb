@@ -4,7 +4,6 @@ class Order < ActiveRecord::Base
 
   attr_accessor :voucher
 
-
   def update_total
     self.total = self.subtotal
     self.total = self.subtotal - self.discount

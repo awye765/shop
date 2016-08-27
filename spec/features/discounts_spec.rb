@@ -1,5 +1,6 @@
-feature "FEATURE: Discounts" do
+require 'rails_helper'
 
+feature "FEATURE: Discounts" do
 
   context "VALID voucher codes" do
 
