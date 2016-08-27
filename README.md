@@ -13,11 +13,11 @@ The website delivers the following features for a fictional user of the store:
 
 - [X] As a User I can view the products, their category, price and availability information.
 
-- [ ] As a User I can add a product to my shopping cart.
+- [X] As a User I can add a product to my shopping cart.
 
-- [ ] As a User I can remove a product from my shopping cart.
+- [X] As a User I can remove a product from my shopping cart.
 
-- [ ] As a User I can view the total price for the products in my shopping cart.
+- [X] As a User I can view the total price for the products in my shopping cart.
 
 - [ ] As a User I can apply a voucher to my shopping cart.
 
