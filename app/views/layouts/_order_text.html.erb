@@ -1,1 +1,1 @@
-<%= link_to "0 Items in Cart ()", order_path, class: "btn btn-link" %>
+<%= link_to "#{current_order.order_items.sum(:quantity)} Items in Cart (£#{number_with_precision(current_order.total, precision: 2)})", order_path, class: "btn btn-link" %>
