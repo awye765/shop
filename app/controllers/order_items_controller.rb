@@ -1,6 +1,7 @@
 class OrderItemsController < ApplicationController
   def create
     @order = current_order
+    @order.discount = 0
     @order_item = @order.order_items.new(order_item_params)
     @product = Product.find(@order_item.product.id)
     @order.update_total
