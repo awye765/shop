@@ -25,13 +25,13 @@ The website delivers the following features for a fictional user of the store:
 
 - [X] As a User I am alerted when I apply an invalid voucher to my shopping cart.
 
-- [ ] As a User I am unable to Out of Stock products to the shopping cart.
+- [ ] As a User I am unable to add Out of Stock products to the shopping cart.
 
 ## <a name="installation">Installation
 
 1. Open the directory where you wish to install this project.
 
-2. From that directory, clone this repo by running ``git clone git@github.com:awye765/store.git`` from the command line.
+2. From that directory, clone this repo by running ``git clone git@github.com:awye765/shop.git`` from the command line.
 
 3. Run ``bundle install`` from the command line to install all gems and dependencies necessary to run the project.
 
@@ -74,7 +74,6 @@ Please note this will take approximately 30-60 seconds to run.
 #### Test Analytics
 - Coveralls
 - Travis CI
-
 
 ## <a name="approach">Approach
 
