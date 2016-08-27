@@ -6,12 +6,12 @@
         <div class="col-xs-4">
             <%= f.number_field :quantity, value: order_item.quantity.to_i, class: "form-control", min: 1 %>
             <%= f.hidden_field :product_id, value: product.id %>
-        </div>
-        <div class="update-button">
-            <%= f.submit "Update Quantity", class: "btn btn-primary" %>
-        </div>
-        <div class="delete-button">
-          <%= link_to "Delete", order_item, method: :delete, remote: true, class: "btn btn-danger" %>
+            <div class="update-button">
+              <%= f.submit "Update Quantity", class: "btn btn-primary" %>
+            </div>
+            <div class="delete-button">
+              <%= link_to "Delete", order_item, method: :delete, remote: true, class: "btn btn-danger" %>
+            </div>
         </div>
         <br>
         <h4 class="text-center">Total Price for <%=order_item.quantity%> Items: <span style="color: green">£<%=number_with_precision(order_item.total_price, precision: 2) %></span></h4>

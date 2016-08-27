@@ -9,7 +9,7 @@
         <p class='product-detail'><i>Category:</i> <b><%=product.category%></b></p>
         <p class='product-detail'><i>Price:</i> <b>£<%=number_with_precision(product.price, precision: 2)%></b>
         <p class='product-detail'><i>Amount left:</i> <b><%=product.stock%></b>
-        <%= form_for @order_item, remote: true, class: "add-product" do | f | %>
+        <%= form_for @order_item, remote: true do | f | %>
           <div class="input-group">
             <%= f.number_field :quantity, value: 1, class: "form-control", min: 1 %>
             <div class="input-group-btn">
