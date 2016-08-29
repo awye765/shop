@@ -25,21 +25,27 @@ The website delivers the following features for a fictional user of the store:
 
 - [X] As a User I am alerted when I apply an invalid voucher to my shopping cart.
 
-- [ ] As a User I am unable to add Out of Stock products to the shopping cart.
+- [X] As a User I am unable to add Out of Stock products to the shopping cart.
 
 ## <a name="installation">Installation
 
-1. Open the directory where you wish to install this project.
+1. Open the directory on your computer where you wish to install this project.
 
 2. From that directory, clone this repo by running ``git clone git@github.com:awye765/shop.git`` from the command line.
 
 3. Run ``bundle install`` from the command line to install all gems and dependencies necessary to run the project.
 
-4. Run ``rails s`` from the command line.
+4. Run ``rake db:create`` to create the test and development databases.
 
-5. Open your preferred browser and navigate to the following address: ``http://localhost:3000/``.
+5. Run ``rake db:migrate`` to run the database migrations on those databases.
 
-6. The project should be running in your browser for you to explore and use.
+6. Run ``rake db:seed`` to seed the databases with the mock data for the shop.
+
+7. Run ``rails s`` from the command line.
+
+8. Open your preferred browser and navigate to the following address: ``http://localhost:3000/``.
+
+9. The project should be running in your browser for you to explore and use.
 
 To run the tests, please see the [below](#tests) section on testing.
 

@@ -2,4 +2,6 @@
   alert("not valid.")
 <% else %>
   $(".order-text").html("<%= escape_javascript(render 'layouts/order_text')%>")
-<% end %>  
+  $(".product_index-<%= @order_item.product.id %>").html("<%= escape_javascript(render 'products/stock_content', builder: @product) %>")
+<% end %>
+window.location.reload();
