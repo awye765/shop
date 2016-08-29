@@ -346,7 +346,7 @@
         null,
         null,
         1,
-        21,
+        22,
         null,
         null,
         1,
@@ -354,11 +354,11 @@
         null,
         null,
         1,
-        21,
+        22,
         null,
         null,
         1,
-        21,
+        22,
         null,
         null,
         null
@@ -392,10 +392,10 @@
         1,
         null,
         1,
-        190,
+        193,
         124,
         null,
-        66,
+        69,
         null,
         null,
         null,
@@ -430,8 +430,8 @@
       "/Users/alistairwye/Projects/shop/app/controllers/products_controller.rb": [
         1,
         1,
-        19,
-        19,
+        20,
+        20,
         null,
         null
       ],
@@ -683,6 +683,26 @@
         null,
         1,
         1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/alistairwye/Projects/shop/spec/features/stock_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
         null,
         null,
         null,
@@ -953,7 +973,6 @@
         null
       ]
     },
-
-    "timestamp": 1472305079
+    "timestamp": 1472308402
   }
 }

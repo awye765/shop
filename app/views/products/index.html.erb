@@ -8,17 +8,23 @@
         <p class='product-detail'><i>Colour:</i> <b><%=product.colour%></b></p>
         <p class='product-detail'><i>Category:</i> <b><%=product.category%></b></p>
         <p class='product-detail'><i>Price:</i> <b>£<%=number_with_precision(product.price, precision: 2)%></b>
-        <p class='product-detail'><i>Amount left:</i> <b><%=product.stock%></b>
+
         <%= form_for @order_item, remote: true do | f | %>
-          <div class="input-group">
-            <%= f.number_field :quantity, value: 1, class: "form-control", min: 1 %>
-            <div class="input-group-btn">
-              <%= f.hidden_field :product_id, value: product.id %>
-              <%= f.submit "Add to Cart", class: "btn btn-primary" %>
-            </div>
-          </div>
+            <% if product.stock == 0 %>
+              <p class='product-detail'><i>Out of stock, sorry!</i></b>
+            <% else %>
+              <p class='product-detail'><i>Amount left:</i> <b><%=product.stock%></b>
+              <div class="input-group">
+                <%= f.number_field :quantity, value: 1, class: "form-control", min: 1 %>
+                <%= f.hidden_field :product_id, value: product.id %>
+                <div class="input-group-btn">
+                  <%= f.submit "Add to Cart", class: "btn btn-primary", :id => "product-#{product.id}" %>
+                </div>
+              </div>
+            <% end%>
         <% end %>
       </div>
+
     <%end%>
   </div>
   </div>
