@@ -16,7 +16,7 @@
         <%= form_for @order_item, remote: true do | f | %>
             <% if product.stock >= 1 %>
               <div class="input-group">
-                <%= f.number_field :quantity, value: 1, class: "form-control", min: 1 %>
+                <%= f.number_field :quantity, value: 1, class: "form-control", min: 1, max: product.stock %>
                 <%= f.hidden_field :product_id, value: product.id %>
                 <div class="input-group-btn">
                   <%= f.submit "Add to Cart", class: "btn btn-primary", :id => "product-#{product.id}" %>
