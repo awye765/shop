@@ -9,7 +9,7 @@ feature 'FEATURE: Stock' do
   context "when 0 stock for an item" do
     it 'should say out "out of stock" if there is no stock' do
       visit '/'
-      expect(page).to have_content 'out of stock'
+      expect(page).to have_content 'Out of stock, sorry!'
     end
 
   end

@@ -46,17 +46,4 @@ feature "FEATURE: Products Index" do
 
   end
 
-  context "all stock of a product has been purchased" do
-
-    scenario "shows that product is out of stock", js: true do
-      visit '/'
-      5.times do
-        page.find('.btn-primary').click
-      end
-      visit '/'
-      expect(page).to have_content("Amount left: 0")
-    end
-
-  end
-
 end
