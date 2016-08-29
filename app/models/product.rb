@@ -2,6 +2,8 @@ class Product < ActiveRecord::Base
 
   has_many :order_items
 
+  default_scope { order('id ASC') }
+
   has_attached_file :image, :styles => { :medium => "300x300",
                                          :thumb => "100x100"
                                        }

@@ -4,11 +4,16 @@ class OrderItemsController < ApplicationController
     @order = current_order
     @order.discount = 0
     @order_item = @order.order_items.new(order_item_params)
+    @order.save
     @product = @order_item.product
     @product.update_attributes(stock: (@product.stock - @order_item.quantity))
     # @product.remove_product_from_stock
     @order.update_total
     session[:order_id] = @order.id
+    @products = Product.all
+    respond_to do | format |
+      format.js
+    end
   end
 
   # def update

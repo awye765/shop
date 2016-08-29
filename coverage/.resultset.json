@@ -392,8 +392,8 @@
         1,
         null,
         1,
-        172,
-        108,
+        202,
+        138,
         null,
         64,
         null,
@@ -430,8 +430,8 @@
       "/Users/alistairwye/Projects/shop/app/controllers/products_controller.rb": [
         1,
         1,
-        18,
-        18,
+        28,
+        28,
         null,
         null
       ],
@@ -884,9 +884,9 @@
         null,
         1,
         89,
-        59,
+        79,
         null,
-        30,
+        10,
         null,
         null,
         null,
@@ -905,6 +905,8 @@
         1,
         null,
         1,
+        null,
+        125,
         null,
         1,
         null,
@@ -932,9 +934,14 @@
         10,
         10,
         10,
+        10,
         null,
         10,
         10,
+        10,
+        10,
+        10,
+        null,
         null,
         null,
         null,
@@ -969,6 +976,6 @@
         null
       ]
     },
-    "timestamp": 1472460975
+    "timestamp": 1472498024
   }
 }
