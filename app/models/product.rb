@@ -7,14 +7,14 @@ class Product < ActiveRecord::Base
                                        }
   validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
 
-  def remove_product_from_stock
-    self.stock -= 1
-    self.save
-  end
-
-  def return_product_to_stock
-    self.stock += 1
-    self.save
-  end
+  # def remove_product_from_stock
+  #   self.stock -= 1
+  #   self.save
+  # end
+  #
+  # def return_product_to_stock
+  #   self.stock += 1
+  #   self.save
+  # end
 
 end
