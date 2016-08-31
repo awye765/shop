@@ -33,17 +33,8 @@ feature "FEATURE: Shopping Cart" do
 
     fill_in "order_item_quantity", with: -1
     click_on('Add to Cart')
-    
+
     expect(page).to have_content("Amount left: 5 in stock")
   end
-
-  # scenario "allows user to increase the quantity of an item in the cart", js: true do
-  #   visit '/'
-  #   click_on('Add to Cart')
-  #   click_link '1 Items in Cart (£99.00)'
-  #   fill_in "order_item_quantity", with: '2'
-  #   click_on('Update Quantity')
-  #   expect(page).to have_content("Total Price for 2 Items: £198.00")
-  # end
 
 end
