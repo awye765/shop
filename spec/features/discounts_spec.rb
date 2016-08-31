@@ -38,7 +38,7 @@ feature "FEATURE: Discounts" do
 
     end
 
-    context "on any order of £75.00 with at least one item of footwear" do
+    context "on any order of £75.00 or more with at least one item of footwear" do
 
       scenario "'PRIMANI15' reduces total by £15.00", js: true do
         visit '/'
@@ -128,7 +128,7 @@ feature "FEATURE: Discounts" do
 
   context "VALID vouchers CANNOT be used in combination" do
 
-    scenario "Only last voucher applied to total if more than one used", js: true do
+    scenario "such that last voucher applied takes precedence", js: true do
       @product6 = FactoryGirl.create(:product)
       visit '/'
       page.find('.btn-primary').click

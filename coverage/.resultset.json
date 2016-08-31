@@ -1,27 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/alistairwye/Projects/shop/spec/controllers/order_items_controller_spec.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
       "/Users/alistairwye/Projects/shop/spec/controllers/orders_controller_spec.rb": [
         1,
         null,
@@ -871,13 +850,6 @@
         null,
         null
       ],
-      "/Users/alistairwye/Projects/shop/spec/models/order_item_spec.rb": [
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
       "/Users/alistairwye/Projects/shop/spec/models/order_spec.rb": [
         1,
         null,
@@ -956,13 +928,6 @@
         1,
         9,
         18,
-        null,
-        null,
-        null
-      ],
-      "/Users/alistairwye/Projects/shop/spec/models/product_spec.rb": [
-        null,
-        null,
         null,
         null,
         null
@@ -1091,6 +1056,6 @@
         null
       ]
     },
-    "timestamp": 1472674022
+    "timestamp": 1472675646
   }
 }
