@@ -49,4 +49,8 @@ module OrdersHelper
     end
   end
 
+  def quantity_of_items_in_cart
+    "#{current_order.order_items.sum(:quantity)} Items in Cart"
+  end
+
 end

@@ -301,10 +301,6 @@
         1,
         null
       ],
-      "/Users/alistairwye/Projects/shop/app/helpers/application_helper.rb": [
-        1,
-        null
-      ],
       "/Users/alistairwye/Projects/shop/app/helpers/order_items_helper.rb": [
         1,
         null,
@@ -444,10 +440,18 @@
         null,
         null,
         null,
+        1,
+        57,
+        null,
+        null,
         null
       ],
       "/Users/alistairwye/Projects/shop/app/helpers/products_helper.rb": [
         1,
+        1,
+        57,
+        null,
+        null,
         null
       ],
       "/Users/alistairwye/Projects/shop/spec/support/database_cleaner.rb": [
@@ -537,9 +541,11 @@
       ],
       "/Users/alistairwye/Projects/shop/app/controllers/products_controller.rb": [
         1,
+        null,
         1,
         29,
         29,
+        null,
         null,
         null
       ],
@@ -1021,6 +1027,7 @@
       ],
       "/Users/alistairwye/Projects/shop/app/models/order_item.rb": [
         1,
+        null,
         1,
         1,
         null,
@@ -1043,6 +1050,14 @@
         10,
         null,
         null,
+        1,
+        10,
+        null,
+        null,
+        1,
+        10,
+        null,
+        null,
         null
       ],
       "/Users/alistairwye/Projects/shop/app/models/product.rb": [
@@ -1055,17 +1070,8 @@
         1,
         null,
         null,
+        null,
         1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null
       ],
@@ -1085,6 +1091,6 @@
         null
       ]
     },
-    "timestamp": 1472668400
+    "timestamp": 1472674022
   }
 }
