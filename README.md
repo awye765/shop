@@ -113,7 +113,7 @@ Please note the tests will take approximately 30-60 seconds to run.
 
 ### Design
 
-I've kept design to a minimum, reserving design decisions for the client.  I have however adopted a simple responsive grid layout.  This was based on my research of online clothing retailer websites.  To give a better sense of the finished product for the client I've included stock images, particularly as clothing/fashion is a highly visual industry.
+I've kept design to a minimum, reserving design decisions for the client.  I have however adopted a simple responsive grid layout.  This was based on my research of online clothing retailer websites.  To give the client a better sense of the finished product I've included stock images, particularly as clothing/fashion is a highly visual industry.
 
 ### Structure
 
